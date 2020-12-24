@@ -199,7 +199,7 @@ void run_with_wm_class(char *name, char *class, char **argv)
         exit(EXIT_FAILURE);
     }
 
-    sleep(1);
+    sleep(7);
 
     set_wm_class_by_pid(name, class, pid);
 }
